@@ -5,7 +5,6 @@ clear all
 %Question 1
 
 [I,map] = imread('tools.bmp');
-
 ftI = abs(fftshift(fft2(I)));
 
 figure(1)
